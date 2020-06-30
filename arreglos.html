@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>Actividad 7 JAVASCRIPT</title>
+		<link rel="stylesheet" href="./css/estilos.css" type="text/css"/>
+		<script src="./js/script.js"></script>
+		<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+	</head>
+	<body>
+		<header>
+			<h1>Seleccione una opción</h1>
+			<div class="navbar">
+				<a href="estilos_valor.html" class="opciones">Estilos valor</a>
+				<a href="arreglos.html" class="opciones">Arreglos</a>
+				<a href="while_for.html" class="opciones">While for</a>
+				<a href="if_else_case.html" class="opciones">If else case</a>
+				<a href="suma.html" class="opciones">Suma</a>
+				<a href="zona.html" class="opciones">Zona</a>
+				<a href="contenedores.html" class="opciones">Contenedores</a>
+				<a href="index.html" class="opciones">Inicio</a>
+			</div>
+		</header> 
+		<section class="contenedor top">
+			<select id="temas" onchange="opcSeleccionado()"> 
+			<option value="0" selected>Seleccione...</option>
+			<option value="a">Pop</option> 
+			<option value="b">Shift</option>
+			<option value="c">Push</option>
+			<option value="d">Unshift</option>
+			<option value="e">Splice</option>
+			<option value="f">Delete</option>
+			<option value="g">reverse</option>
+			<option value="h">short</option>
+			<option value="i">concat</option>
+			<option value="j">join</option>
+			<option value="k">length</option>
+			</select>
+
+			<article id="a" class="contenedor1">
+				<h3>POP<h3>
+					<button onclick="a()">Presionar</button>
+			</article>
+			
+			<article id="b" class="contenedor1">
+				<h3>Shift<h3>
+					<button onclick="b()">Presionar</button>
+			</article>
+			
+			<article id="c" class="contenedor1">
+				<h3>Push<h3>
+					<button onclick="c()">Presionar</button>
+			</article>
+			
+			<article id="d" class="contenedor1">
+				<h3>Unshift<h3>
+					<button onclick="d()">Presionar</button>
+			</article>
+			<article id="e" class="contenedor1">
+				<h3>Splice<h3>
+					<button onclick="e()">Presionar</button>
+			</article>
+			
+			<article id="f" class="contenedor1">
+				<h3>Delete<h3>
+					<button onclick="f()">Presionar</button>
+			</article>
+			<article id="g" class="contenedor1">
+				<h3>reverse<h3>
+					<button onclick="g()">Presionar</button>
+			</article>
+			
+			<article id="h" class="contenedor1">
+				<h3>sort<h3>
+					<button onclick="h()">Presionar</button>
+			</article>
+			<article id="i" class="contenedor1">
+				<h3>concat<h3>
+					<button onclick="i()">Presionar</button>
+			</article>
+			
+			<article id="j" class="contenedor1">
+				<h3>join<h3>
+					<button onclick="j()">Presionar</button>
+			</article>
+			<article id="k" class="contenedor1">
+				<h3>length<h3>
+					<button onclick="k()">Presionar</button>
+			</article>
+
+
+
+			<p id="resultado" class="res">Selecciona una opción</p>
+		</section >
+	
+		
+			
+				<footer>
+					<h2>Barajas Rocha Alexis Rafael</h2>
+					<h3>AUTOR</h3>
+					<img src="img/autor.jpg" height="100px" width"100px">
+				</footer>
+			
+</html>
